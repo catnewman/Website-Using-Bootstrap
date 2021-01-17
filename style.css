@@ -1,0 +1,29 @@
+/* CSS files add styling rules to your content */
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  justify: center;
+}
+
+h1 {
+  font-style: bold;
+  color: blue;
+  justify: center;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: purple;
+  font-style: italic;
+}
+img {
+  height: 40vh;
+  width: auto;
+  margin: 3vh 0;
+}
